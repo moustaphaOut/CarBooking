@@ -1,0 +1,6 @@
+¨Ì sr java.util.ArrayListxÅ“ô«aù I sizexp   w   sr javafxapplication2.OurClient‘(}Ø»Ê L Adresst Ljava/lang/String;L Brandq ~ L CCodeq ~ L Codeq ~ L Colorq ~ L Countryq ~ L Dateq ~ L FNameq ~ L Idq ~ L Modelq ~ L PNumberq ~ xpt Casat Fordt 4523t 001t Redt Moroccot 
+2018-05-09t Moustapha el1560t Mustangt 
+0612345689sq ~ t Casat BMWt 1456t 002t BLUEt Maroct 
+2018-05-14t 
+Saad Mouakt 548562t Serie7t 
+0677868695x

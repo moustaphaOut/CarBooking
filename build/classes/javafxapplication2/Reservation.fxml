@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="ReservationPane" prefHeight="411.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.ReservationController">
+   <children>
+      <ImageView fitHeight="143.0" fitWidth="153.0" layoutX="18.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Notinstock" layoutX="518.0" layoutY="370.0" mnemonicParsing="false" onAction="#NotinstockAction" prefHeight="26.0" prefWidth="104.0" text="RESERVATION" />
+      <Text fx:id="Selected" layoutX="182.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is the car you have selected " textAlignment="CENTER" wrappingWidth="354.14056396484375">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="32.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="Description" layoutX="332.0" layoutY="182.0" prefHeight="176.0" prefWidth="246.0" text="Description" />
+      <Text fx:id="Stock" layoutX="204.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We don't have it in stock anymore" textAlignment="CENTER" wrappingWidth="294.6839599609375" />
+      <Button fx:id="Back" layoutX="18.0" layoutY="371.0" mnemonicParsing="false" onAction="#BackAction" prefHeight="25.0" prefWidth="104.0" text="Back" />
+      <ImageView fx:id="Image" fitHeight="176.0" fitWidth="246.0" layoutX="38.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
